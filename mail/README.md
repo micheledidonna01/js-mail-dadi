@@ -7,7 +7,7 @@ Chiedi all’utente la sua email, controlla che sia nella lista di chi può acce
 
 - lista di email di invitati alla festa
 - chiedo l'email del ragazzo che vuole entrare
-- loop di controllo
+- loop di controllo per controllare le mail
     - se l'email inserita corrisponde ad una già esistente nella lista di email di invitati alla festa
         - stampo un messaggio dove il ragazzo può entrare
     - altrimenti
