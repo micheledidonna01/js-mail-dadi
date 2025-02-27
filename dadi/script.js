@@ -36,7 +36,7 @@ TRACK BONUS
 //genero numero da 1 a 6 per pc
 let numberPC = Math.floor(Math.random() * (max - min + 1)) + min;
 
-//genero numero da 1 a 6 per il giocatore
+//inserire numero da 1 a 6 per il giocatore
 let numberPlayer = parseInt(prompt('Inserisci un numero da 1 a 6'));
 
 //verifico il numero sia compreso tra 1 e 6
