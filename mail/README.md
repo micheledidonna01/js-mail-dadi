@@ -16,6 +16,4 @@ Chiedi all’utente la sua email, controlla che sia nella lista di chi può acce
             - stampo un messaggio il ragazzo non può entrare
             - esco dal ciclo
 - altrimenti
-    - richiedo l'email del ragazzo che vuole entrare
-    - se l'email ha almeno 10 caratteri per essere valida
-        - stampo un messaggio che dice di riprovare aggiornando la pagina
+    - stampo un messaggio che dice di riprovare aggiornando la pagina
