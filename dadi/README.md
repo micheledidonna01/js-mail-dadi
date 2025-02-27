@@ -20,3 +20,16 @@ Invece di generare il numero random per l'utente, chiedilo con un prompt!
     - stampo un messaggio dove la partita finisce in pareggio
 
 
+## Soluzione con bonus
+
+- genero un numero da 1 a 6 per il pc
+- chiedo al giocatore di inserire un numero da 1 a 6
+- se il numero è compreso tra 1 a 6
+    - se il numero generato per il pc è superiore a quello del giocatore
+        - stampo un messaggio dove il pc è il vincitore
+    - altrimenti se il numero del giocatore è superiore a quello generato dal pc
+        - stampo un messaggio dove il giocatore è il vincitore
+    - altrimenti
+        - stampo un messaggio dove la partita finisce in pareggio
+- altrimenti
+    - chiedo al giocatore di rinserire il numero
