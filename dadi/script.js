@@ -40,7 +40,7 @@ let numberPC = Math.floor(Math.random() * (max - min + 1)) + min;
 let numberPlayer = parseInt(prompt('Inserisci un numero da 1 a 6'));
 
 //verifico il numero sia compreso tra 1 e 6
-if (numberPlayer > 0 && numberPlayer < 7) {
+if (numberPlayer > 0 && numberPlayer < 7 && !isNaN(numberPlayer)) {
     alert(`Il PC lancia il dado ed esce il numero ${numberPC}`);
 
     //se il numero generato per il pc è superiore a quello del giocatore
@@ -49,13 +49,13 @@ if (numberPlayer > 0 && numberPlayer < 7) {
         //stampo un messaggio dove il pc è il vincitore
         alert(`Il PC vince la partita`);
 
-        //altrimenti se il numero generato per il giocatore è superiore a quello del pc
+    //altrimenti se il numero generato per il giocatore è superiore a quello del pc
     } else if (numberPlayer > numberPC) {
 
         //stampo un messaggio dove il giocatore è il vincitore
         alert(`Il Giocatore vince la partita`);
 
-        //altrimenti
+    //altrimenti
     } else {
 
         //stampo un messaggio di parità
